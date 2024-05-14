@@ -5,6 +5,10 @@
   "passwd": {
     "users": [
       {
+        "groups": [
+          "sudo",
+          "docker"
+        ],
         "name": "core",
         "passwordHash": "$y$j9T$3aOBNenx19utQpOhYZpxO1$kF8vwZ203CDjpBzrh46IDRNW422/tFher0b6YMUfeM7",
         "sshAuthorizedKeys": [
