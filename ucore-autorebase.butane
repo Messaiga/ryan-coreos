@@ -3,9 +3,8 @@ version: 1.4.0
 passwd:
   users:
     - name: core
-#      ssh_authorized_keys:
-#        - YOUR_SSH_PUB_KEY_HERE
       password_hash: $y$j9T$3aOBNenx19utQpOhYZpxO1$kF8vwZ203CDjpBzrh46IDRNW422/tFher0b6YMUfeM7
+    - ssh_authorized_keys: id_rsa.pub
 storage:
   directories:
     - path: /etc/ucore-autorebase
